@@ -1,5 +1,6 @@
 import sys
 import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     # 前两个变量不关心
